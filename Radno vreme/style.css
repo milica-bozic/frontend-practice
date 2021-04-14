@@ -1,0 +1,79 @@
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 25px;
+    font-style: arial;
+    min-width: 500px;
+    background-color: rgba(248, 241, 241, 0.884);
+    padding: 2rem;
+    border: 15px solid rgb(231, 222, 231);
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 11px;
+}
+
+#main {
+    width: 15rem;
+}
+
+tbody td {
+    width: 7rem;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-table tr:nth-child(even) {
+    background: lightyellow;
+}
+
+.orange {
+    background-color: orange;
+    text-align: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 0.5rem;
+}
+
+.last-row {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    background-color: grey;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+#last-number {
+    text-align: right;
+    padding-right: 0;
+    padding-right: 4px;
+}
+
+tr td:nth-child(2) {
+    text-align: right;
+}
+
+tr td:nth-child(3) {
+    text-align: right;
+}
+
+tr td:nth-child(4) {
+    text-align: right;
+}
+
+.content-table tr {
+    border-bottom: 1px solid rgb(238, 153, 84);
+}
+
+.content-table td, .content-table th {
+    border-right: 1px solid lightgrey;
+}
