@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: rgb(102, 219, 223);
+}
+
+nav ul li:hover {
+    background-color: aqua;
+}
+
+nav ul li {
+    padding: 1.5rem;
+    border-bottom: 1px solid aqua;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+section {
+    background: linear-gradient( rgb(77, 212, 212), white);
+    height: 160px;
+    font-size: 1.4rem;
+    padding: 1rem;
+    height: 11rem;
+}
+
+label {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+}
+
+input {
+    border: 2px solid rgba(39, 162, 167, 0.452);
+    height: 2rem;
+    font-size: 1.4rem;
+}
+
+input:focus {
+    background-color: rgb(67, 201, 201);
+}
+
+h2.col-12{
+    text-align: center;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+footer {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.33%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
