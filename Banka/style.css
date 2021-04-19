@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+aside > p {
+    display: none;
+}
+
+body {
+    background-color: peru;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: olive;
+    color: blanchedalmond;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: olive;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+}
+
+nav {
+    color: palegoldenrod;
+    padding: 0.5rem;
+}
+
+nav ul li a {
+    color: pink;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: rgb(186, 189, 47);
+    box-shadow: 5px 5px 10px #424141;
+}
+
+nav li {
+    background-color: olive;
+    margin: 1rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+section {
+    padding: 1rem;
+}
+
+aside {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.33%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 950px){
+    .col-t-1 {
+        width: 8.33%;
+    }
+    .col-t-2 {
+        width: 16.66%;
+    }
+    .col-t-3 {
+        width: 25%;
+    }
+    .col-t-4 {
+        width: 33.33%;
+    }
+    .col-t-5 {
+        width: 41.66%;
+    }
+    .col-t-6 {
+        width: 50%;
+    }
+    .col-t-7 {
+        width: 58.33%;
+    }
+    .col-t-8 {
+        width: 66.33%;
+    }
+    .col-t-9 {
+        width: 75%;
+    }
+    .col-t-10 {
+        width: 83.33%;
+    }
+    .col-t-11 {
+        width: 91.66%;
+    }
+    .col-t-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    aside > p {
+        display: block;
+    }
+}
