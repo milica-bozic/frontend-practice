@@ -1,0 +1,23 @@
+table tr, td {
+    border: 1px solid blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center-bold {
+    text-align: center;
+    font-weight: bold;
+}
+
+table tr, td {
+    padding: 0.5rem;
+}
+
+table {
+    border: 1px solid blue;
+    background-image: url("slika.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
