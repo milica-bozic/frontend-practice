@@ -1,0 +1,40 @@
+td {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+}
+
+.title-center {
+    text-align: center;
+    color: greenyellow;
+}
+
+.green-solid-border {
+    border: 1px solid green;
+}
+
+.blue-dashed-border {
+    border: 1px dashed blue;
+    text-align: center;
+}
+
+table td {
+    background-image: url("girl.jpg");
+    background-size: contain;
+}
+
+caption {
+    color: rgb(255, 217, 0);
+}
+
+.yellow-dashed-border {
+    border: dashed 1px rgb(157, 160, 3);
+}
+
+.pink-dashed-border {
+    border: 1px dashed pink;
+}
+
+table {
+    margin-left: 20px;
+}
