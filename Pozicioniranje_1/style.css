@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    border: 2px solid black;
+}
+
+span {
+    color: red;
+}
+
+img {
+    border-radius: 100%;
+    border: 1px dashed red;
+    height: 200px;
+    width: 100%;
+}
+
+h4 {
+    color: blue;
+}
+
+.scroll {
+    height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
