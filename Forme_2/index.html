@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://www.google.rs/">
+        <fieldset>
+
+            <legend>Login details</legend>
+
+            <div class="margin-left-1">
+                <p>
+                    <label>Name:</label>
+                    <input type="text">
+                </p>
+
+                <p>
+                    <label>Emalil:</label>
+                    <input type="email">
+                </p>
+
+                <p>
+                    <label>Password:</label>
+                    <input type="password">
+                </p>
+                </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Your feedback</legend>
+
+            <div class="margin-left-2">
+                <p>
+                    <label>Please check all the emotions that appy to you:</label>
+
+                    <div class="emotion-margin-left">
+                        <p>
+                            Angry <input type="checkbox" name="emotion" value="angry"> 
+                         </p>
+                         <p>
+                             Sad <input type="checkbox" name="emotion" value="sad">
+                         </p>
+                         <p>
+                             Happy <input type="checkbox" name="emotion" value="happy">
+                         </p>
+                         <p>
+                             Ambivalent <input type="checkbox" name="emotion" value="ambivalent">
+                         </p>     
+                    </div>
+                </p>
+                <p>
+                    <label>How satisfied were you with our service?</label>
+
+                    <div class="satisfied-margin-left">
+                        <p>
+                            Very satisfied <input type="radio" name="service" value="a">
+                        </p>
+                        <p>
+                            Satisfied <input type="radio" name="service" value="b">
+                        </p>
+                        <p>
+                            Didn't care <input type="radio" name="service" value="c">
+                        </p>
+                        <p>
+                            Dissatisfied <input type="radio" name="service" value="d">
+                        </p>
+                        <p>
+                            Very satisfied <input type="radio" name="service" value="i">
+                        </p>
+                    </div>
+                </p>
+    
+                <p>
+                    <label>Further comments:</label>
+                    <textarea cols="20" rows="3"></textarea>
+                </p>
+            </div>
+            
+        </fieldset>
+
+        <div class="lastinfo-margin-left">
+            <p>
+                <label>Bio photo:</label>
+                <input type="file">
+            </p>
+            <p>
+                <label>Location visited:</label>
+                <select>
+                    <optgroup label="Select location">
+                        <option value="nis">Nis</option>
+                        <option value="kragujevac">Kragujevac</option>
+                        <option value="knjazevac">Knjazevac</option>
+                        </optgroup>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+            <p>
+                <input type="reset" value="reset">
+            </p>
+        </div>
+    </form>
+</body>
+</html>
