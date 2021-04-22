@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORME</title>
+</head>
+<body>
+    <form action="https://drive.google.com/drive/folders/1hg21w-X5V2SZ6E19FJuEzdQgA4L7Ntjb">
+        <fieldset>
+            <legend>Osnovni podaci</legend>
+
+            <p>
+                <label> Ime i prezime: </label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label> Korisnicko ime: </label>
+                <input type="text" maxlength="20">
+            </p>
+
+            <p>
+                <label> Prezime: </label>
+                <input type="text" placeholder="Ovde mozete kucati prezime">
+            </p>
+
+            <p>
+                <label> Upisati ime: </label>
+                <input type="text" value="Milica">
+            </p>
+
+            <p>
+                <label> Upisati ime: </label>
+                <input type="text" value="Milica" disabled>
+            </p>
+
+            <p>
+                <label> Lozinka: </label>
+                <input type="password">
+            </p>
+
+            <p>
+                <label> Ime: </label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label> Unos osetljivih podataka: </label>
+                <input type="password">
+            </p>
+
+            <p>
+                <label> Unos osetljivih podataka: </label>
+                <input type="password" maxlength="6" placeholder="Najvise 6 karaktera">
+            </p>
+
+            <p>
+                <label> JMBG: </label>
+                <input type="password" maxlength="20" placeholder="ovde unesite vas jmbg">
+            </p>
+
+            <p>
+                <label>Godine: </label>
+                <input type="number" max="18" min="16" step="1">
+            </p>
+
+            <p>
+                <label>Datum rodjenja</label>
+                <input type="date">
+            </p>
+
+            <p>
+                <label> Vreme rodjenja</label>
+                <input type="time">
+            </p>
+
+            <p>
+                <label> Unesite svoj mejl: </label>
+                <input type="email">
+            </p>
+
+            <p>
+                <label> Unesite svoju url adresu: </label>
+                <input type="url">
+            </p>
+
+            <p>
+                <label> Drzavljanstvo: </label>
+                <input type="text" value="Srpsko">
+            </p>
+
+            <p>
+                <label> DRzava stanovanja</label>
+                <input type="text" value="Srbija" disabled>
+            </p>
+
+            <p>
+                <label> Unesite drzavljanstvo: </label>
+                <input type="text" placeholder="Ovde unesite drzavljanstvo">
+            </p>
+
+            <p>
+                <label> Pol: </label>
+                <input type="radio" name="pol" value="n" checked> Neopredeljen
+                <input type="radio" name="pol" value="z"> Zenski
+                <input type="radio" name="pol" value="m"> Muski
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dodatne informacije</legend>
+
+            <p>
+                <label>Da li zelite da primate poruke od nas? </label>
+                <input type="radio" name="poruke" value="da"> Da
+                <input type="radio" name="poruke" value="ne" checked> Ne
+            </p>
+
+            <p>
+                <label> Znanje programskih jezika: </label>
+                <input type="checkbox"name="jezik" value="a">JS
+                <input type="checkbox"name="jezik" value="b">PHP
+                <input type="checkbox"name="jezik" value="c">Phyton
+            </p>
+
+            <p>
+                <label>CV</label>
+                <input type="file">
+            </p>
+
+            <p>
+                <label> Odaberite kurs: </label>
+                <select>
+                    <optgroup label="Jezici">
+                        <option value="php">PHP</option>
+                        <option value="js">JS</option>
+                        <option value="qa">QA</option>
+                    </optgroup>
+                    
+                    <optgroup label="jezici2">
+                        <option value="java">Java</option>
+                        <option value="c">C</option>
+                        <option value="a">A</option>
+                    </optgroup>
+
+                    <optgroup label="Bozic">
+                        <option value="mika">Mka</option>
+                        <option value="nena">Nena</option>
+                        <option value="ljuba">Ljuba</option>
+                    </optgroup>
+
+                    <optgroup label="Mace">
+                        <option value="sivka">Sivka</option>
+                        <option value="marselo">Marselo</option>
+                        <option value="nole">Nole</option>
+                        <option value="toma">Toma</option>
+                        <option value="masa">Masa</option>
+
+                    </optgroup>
+
+                </select>
+            </p>
+
+            <input type="reset" value="resetuj">
+            <input type="submit" value="posaljji">
+            <button>Proveri</button>
+
+            <p>
+    
+                <input type="button" value="POZDRAV :)"> 
+            </p>
+
+            <p>
+                <label>Primer upotrebe color polja: </label>
+                <input type="color" value="#ff0000">
+            </p>
+
+            <p>
+                <label> Koja ti je omiljena boja, izaberi: </label>
+                <input type="color" value="#ff0000">
+            </p>
+
+            <p>
+                <label>Unos kriterijuma pretrage:</label>
+                <input type="search">
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
